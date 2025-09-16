@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Landing Page */
+.landing {
+    background: url("wp2763910.gif") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background: #800385;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Login & Signup Backgrounds */
+.login-bg {
+    background: url("wp2763910.gif") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-bg {
+    background: url("wp2763910.gif") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Forms */
+.form-box {
+    background: url("wp2763910.gif")  center center fixed;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+.form-box h2 {
+    margin-bottom: 20px;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box label {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.form-box input {
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-box button {
+    padding: 10px;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-box p {
+    margin-top: 15px;
+}
